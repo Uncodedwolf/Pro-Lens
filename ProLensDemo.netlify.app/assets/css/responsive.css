@@ -1,0 +1,197 @@
+/* 
+    Project Name : CameraX - Ecommerce Website
+    Designed & Coded by : Gulshan Songara
+*/
+
+@media (min-width: 1600px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media (max-width: 991.98px) {
+  .title::after,
+  .title::before {
+    width: 40%;
+  }
+  .title::before {
+    left: -10%;
+  }
+  .title::after {
+    right: -10%;
+  }
+  #hero {
+    padding: 6rem 0 4rem;
+  }
+  .hero_img {
+    width: 20rem;
+  }
+  .hero_text > h1 {
+    font-size: 10rem;
+  }
+  .hero_text > h2 {
+    font-size: 2rem;
+  }
+  .products_wrapper {
+    gap: 10px;
+  }
+  .products_card {
+    flex: 40%;
+  }
+  .products_img {
+    max-width: 32%;
+  }
+  .popular_wrapper {
+    gap: 10px;
+  }
+  .popular_card {
+    flex: 30%;
+  }
+  .brands_wrapper img {
+    max-width: 90%;
+  }
+}
+@media (max-width: 767.98px) {
+  html {
+    font-size: 15px;
+  }
+  .title::after,
+  .title::before {
+    width: 45%;
+  }
+  .title::before {
+    left: -20%;
+  }
+  .title::after {
+    right: -20%;
+  }
+  .mobile_search {
+    display: grid;
+  }
+  .hero_swiper .swiper-slide {
+    gap: 3rem;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .popular_card {
+    flex: 40%;
+  }
+}
+@media (max-width: 575.98px) {
+  html {
+    font-size: 14px;
+  }
+  .sidebar_toggler {
+    margin-right: 1rem;
+  }
+  .nav_icon > .tool_tip {
+    display: none;
+  }
+  .hero_social_links svg {
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+  .products_card {
+    flex: 100%;
+  }
+  .popular_price > b {
+    font-size: 1.2rem;
+  }
+  .popular_btns > button {
+    font-size: 1rem;
+  }
+  .feature_banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+      url(../img/banner.jpg);
+  }
+  #brands {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+  }
+  .account_swiper {
+    width: 90%;
+  }
+  .product_modal > .modal_centered {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .product_details {
+    padding: 1.56rem 1rem;
+  }
+  .product_wishlist {
+    top: 26px;
+  }
+  .product_badge {
+    top: 70px;
+    right: 10px;
+    border-top-right-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
+  }
+  .product_badge::after {
+    content: none;
+  }
+  .product_close {
+    width: 2rem;
+    height: 2rem;
+  }
+  .cart_title > h5 {
+    font-size: 0.95rem;
+    line-height: 1.2rem;
+  }
+  .cart_price {
+    margin-top: 0.5rem;
+  }
+  .cart_price > b {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 398.98px) {
+  .sticked_item {
+    transform: scale(0.8);
+  }
+  .sidebar_toggler {
+    margin-right: 0.2rem;
+  }
+  .hero_img {
+    width: 75vw;
+  }
+  .popular_card {
+    flex: 80%;
+  }
+  .popular_info > h4 {
+    font-size: 1.2rem;
+  }
+  .popular_price > b {
+    font-size: 1.4rem;
+  }
+  .account_swiper {
+    padding: 0.7rem 1.9rem;
+  }
+  .product_details {
+    padding: 1.25rem 0.625rem;
+  }
+  .product_wishlist {
+    top: 20px;
+    right: 15px;
+  }
+  .product_badge {
+    top: 65px;
+    right: 0;
+    transform: scale(0.9);
+  }
+  .product_price {
+    margin: 20px 0 25px;
+  }
+  .product_btns > button:nth-child(1) {
+    width: 100%;
+  }
+  .product_btns > button:nth-child(2),
+  .product_btns > button:nth-child(3) {
+    width: calc(100% / 2 - 0.4rem);
+  }
+  .product_features {
+    margin-top: 40px;
+  }
+  .product_features > ul {
+    padding-left: 14px;
+  }
+}

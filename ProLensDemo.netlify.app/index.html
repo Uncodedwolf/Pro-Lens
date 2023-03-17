@@ -1,0 +1,2000 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pro Lens - The Perfect Camera Store</title>
+    <!--===== Designed & Built by : William Cromwell =====-->
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css"
+    />
+
+    <!-- Swiper Slider -->
+    <link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css" />
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!-- Main Stylesheets  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+  </head>
+
+  <body>
+    <!--============== Preloader ==============-->
+    <div id="preloader">
+      <div class="loader"></div>
+      <span class="loader_text">Loading...</span>
+    </div>
+    <!-- /Preloader -->
+
+    <!--============== Header Section ==============-->
+    <header id="header" class="fixed-top">
+      <div class="container-fluid container-lg px-xl-0 px-lg-3 px-md-5 px-sm-4">
+        <nav class="navbar p-0">
+          <div class="nav_item_left d-flex align-items-center">
+            <!-- Sidebar-toggler -->
+            <div class="sidebar_toggler sticked_item" title="Open Sidemenu">
+              <span class="line line_top"></span>
+              <span class="line line_middle"></span>
+              <span class="line line_bottom"></span>
+            </div>
+
+            <!-- Logo -->
+            <a href="javascript:void(0);" class="nav_logo sticked_item"
+              >Pro Lens</a
+            >
+          </div>
+
+          <div class="me-xl-4 d-flex align-items-center nav_item_right">
+            <!-- Search-field -->
+            <input
+              type="search"
+              class="search_field me-2"
+              placeholder="Search..."
+            />
+
+            <!-- Search-icon -->
+            <div class="nav_icon d-none d-md-block">
+              <svg
+                class="search-icon sticked_item"
+                aria-hidden="true"
+                focusable="false"
+                role="presentation"
+                xmlns="http://www.w3.org/2000/svg"
+                width="21"
+                height="24"
+                viewBox="0 0 21 24"
+                fill="none"
+              >
+                <path
+                  d="M19.5 21.5L13.6155 15.1628"
+                  stroke="currentColor"
+                  stroke-width="1.75"
+                ></path>
+                <circle
+                  cx="9.5"
+                  cy="9.5"
+                  r="7"
+                  stroke="currentColor"
+                  stroke-width="1.75"
+                ></circle>
+              </svg>
+              <span class="tool_tip">Search</span>
+            </div>
+
+            <!-- Mobile Search-icon -->
+            <div class="nav_icon d-block d-md-none">
+              <svg
+                class="mob-search sticked_item"
+                aria-hidden="true"
+                focusable="false"
+                role="presentation"
+                xmlns="http://www.w3.org/2000/svg"
+                width="21"
+                height="24"
+                viewBox="0 0 21 24"
+                fill="none"
+              >
+                <path
+                  d="M19.5 21.5L13.6155 15.1628"
+                  stroke="currentColor"
+                  stroke-width="1.75"
+                ></path>
+                <circle
+                  cx="9.5"
+                  cy="9.5"
+                  r="7"
+                  stroke="currentColor"
+                  stroke-width="1.75"
+                ></circle>
+              </svg>
+              <span class="tool_tip">Search</span>
+            </div>
+
+            <!-- Cart-icon -->
+            <div class="nav_icon mx-sm-4 mx-2">
+              <a href="cart.html">
+                <svg
+                  class="cart-icon sticked_item"
+                  aria-hidden="true"
+                  focusable="false"
+                  role="presentation"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+                  />
+                </svg>
+              </a>
+              <div class="badge rounded-pill cart_badge">3</div>
+              <span class="tool_tip">Cart</span>
+            </div>
+
+            <!-- User-icon -->
+            <div class="nav_icon">
+              <svg
+                class="user-icon sticked_item"
+                aria-hidden="true"
+                focusable="false"
+                role="presentation"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M20.5 19.5V21.525C20.5 21.5802 20.4552 21.625 20.4 21.625H3.6C3.54477 21.625 3.5 21.5802 3.5 21.525V19.5C3.5 18.3728 3.94777 17.2918 4.7448 16.4948C5.54183 15.6978 6.62283 15.25 7.75 15.25H16.25C17.3772 15.25 18.4582 15.6978 19.2552 16.4948C20.0522 17.2918 20.5 18.3728 20.5 19.5Z"
+                  stroke="currentColor"
+                  stroke-width="1.75"
+                ></path>
+                <path
+                  d="M12 11C14.3472 11 16.25 9.09721 16.25 6.75C16.25 4.40279 14.3472 2.5 12 2.5C9.65279 2.5 7.75 4.40279 7.75 6.75C7.75 9.09721 9.65279 11 12 11Z"
+                  stroke="currentColor"
+                  stroke-width="1.75"
+                  stroke-linejoin="round"
+                ></path>
+              </svg>
+              <span class="tool_tip">Login</span>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- /Header Section -->
+
+    <!--============== Mobile Search-field ==============-->
+    <div class="mobile_search">
+      <div
+        class="d-flex justify-content-between align-items-center mob_search_wrapper"
+      >
+        <i class="bi bi-arrow-left mob_search_close"></i>
+        <input type="search" placeholder="Search..." />
+        <i class="bi bi-search"></i>
+      </div>
+    </div>
+    <!-- /Mobile Search-field -->
+
+    <!--============== Side-bar Section ==============-->
+    <aside id="sidebar">
+      <div class="sidebar_head">
+        <h5 class="mb-0">
+          <i class="bi bi-person-circle me-2"></i> Hello, Log in
+        </h5>
+        <div class="close_btn sidebar_close" title="Close">
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+
+      <div class="sidebar_body">
+        <div class="drop_down">
+          <div
+            class="d-flex justify-content-between align-items-center drop_down_head"
+          >
+            <span><i class="bi bi-camera me-2"></i> All Products</span>
+            <i class="bi bi-plus"></i>
+          </div>
+          <ul class="mt-2 drop_down_body">
+            <li><a href="#popular">DSLR Cameras</a></li>
+            <li><a href="#popular">Mirrorless Cameras</a></li>
+            <li><a href="#popular">Action Cameras</a></li>
+            <li><a href="#popular">Compact Cameras</a></li>
+            <li><a href="#popular">Camcorders</a></li>
+            <li><a href="#popular">Lenses</a></li>
+            <li><a href="#popular">Accessories</a></li>
+          </ul>
+        </div>
+
+        <ul class="mb-0 ps-0 sidebar_list">
+          <li>
+            <i class="bi bi-bag-check me-2"></i>
+            <a href="cart.html">My Orders</a>
+          </li>
+          <li>
+            <i class="bi bi-heart me-2"></i>
+            <a href="javascript:void(0);">My Wishlist</a>
+          </li>
+          <li>
+            <i class="bi bi-person me-2"></i>
+            <a href="javascript:void(0);">My Account</a>
+          </li>
+          <li>
+            <i class="bi bi-geo-alt me-2"></i>
+            <a href="javascript:void(0);">Order Tracking</a>
+          </li>
+          <li>
+            <i class="bi bi-headset me-2"></i>
+            <a href="javascript:void(0);">Help & Support</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="sidebar_foot">
+        <h6>Follow us on -</h6>
+        <div class="side_social_links social_links">
+          <a href="javascript:void(0);">
+            <svg
+              fill="#fff"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 50 50"
+            >
+              <path
+                d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"
+              />
+            </svg>
+          </a>
+          <a href="javascript:void(0);" class="mx-4">
+            <svg
+              fill="#fff"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 30 30"
+            >
+              <path
+                d="M15,12.124c-1.589,0-2.876,1.288-2.876,2.876s1.288,2.876,2.876,2.876s2.876-1.288,2.876-2.876S16.589,12.124,15,12.124z"
+              />
+              <circle cx="15" cy="15" r="3" />
+              <path
+                d="M15,2C7.832,2,2,7.832,2,15s5.832,13,13,13s13-5.832,13-13S22.168,2,15,2z M24,18.333C24,21.458,21.458,24,18.334,24h-6.667	C8.542,24,6,21.458,6,18.334v-6.667C6,8.542,8.542,6,11.666,6h6.667C21.458,6,24,8.542,24,11.666V18.333z"
+              />
+              <path
+                d="M18.333,8h-6.667C9.645,8,8,9.645,8,11.667v6.667C8,20.355,9.645,22,11.667,22h6.667C20.355,22,22,20.355,22,18.333v-6.667	C22,9.645,20.355,8,18.333,8z M15,20c-2.757,0-5-2.243-5-5s2.243-5,5-5s5,2.243,5,5S17.757,20,15,20z M19.667,11	C19.299,11,19,10.701,19,10.333s0.299-0.667,0.667-0.667c0.368,0,0.667,0.299,0.667,0.667S20.035,11,19.667,11z"
+              />
+            </svg>
+          </a>
+          <a href="javascript:void(0);">
+            <svg
+              fill="#fff"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 50 50"
+            >
+              <path
+                d="M25,2C12.317,2,2,12.317,2,25s10.317,23,23,23s23-10.317,23-23S37.683,2,25,2z M36.237,20.524c0.01,0.236,0.016,0.476,0.016,0.717C36.253,28.559,30.68,37,20.491,37c-3.128,0-6.041-0.917-8.491-2.489c0.433,0.052,0.872,0.077,1.321,0.077c2.596,0,4.985-0.884,6.879-2.37c-2.424-0.044-4.468-1.649-5.175-3.847c0.339,0.065,0.686,0.1,1.044,0.1c0.505,0,0.995-0.067,1.458-0.195c-2.532-0.511-4.441-2.747-4.441-5.432c0-0.024,0-0.047,0-0.07c0.747,0.415,1.6,0.665,2.509,0.694c-1.488-0.995-2.464-2.689-2.464-4.611c0-1.015,0.272-1.966,0.749-2.786c2.733,3.351,6.815,5.556,11.418,5.788c-0.095-0.406-0.145-0.828-0.145-1.262c0-3.059,2.48-5.539,5.54-5.539c1.593,0,3.032,0.672,4.042,1.749c1.261-0.248,2.448-0.709,3.518-1.343c-0.413,1.292-1.292,2.378-2.437,3.064c1.122-0.136,2.188-0.432,3.183-0.873C38.257,18.766,37.318,19.743,36.237,20.524z"
+              />
+            </svg>
+          </a>
+        </div>
+        <p class="mb-0">
+          &#169;
+          <script>
+            document.write(new Date().getFullYear() + " ");
+          </script>
+          Pro Lens. All Rights Reserved.
+        </p>
+      </div>
+    </aside>
+    <!-- /Side-bar Section -->
+
+    <main>
+      <!--============== Hero Section ==============-->
+      <section id="hero">
+        <!-- hero_swiper -->
+        <div class="swiper hero_swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="hero_text">
+                <h1>Camera</h1>
+                <h2>
+                  Canon - <br />
+                  EOS 3000D
+                </h2>
+                <p>Simply for first-time DSLR user.</p>
+                <div class="fs-4">
+                  <small><del class="text-muted">$ 33,995</del></small>
+                  <b class="ms-4">$ 31,300</b>
+                </div>
+                <button type="button" class="hero_btn btn_arrow">
+                  Shop Now <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+              <div class="hero_img">
+                <img src="assets/img/hero/hero1.png" alt="hero-img" />
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="hero_text">
+                <h1>Action</h1>
+                <h2>
+                  GoPro - <br />
+                  Hero10 Black
+                </h2>
+                <p>The most powerful GoPro ever.</p>
+                <div class="fs-4">
+                  <b>$339</b>
+                </div>
+                <button type="button" class="hero_btn btn_arrow">
+                  Shop Now <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+              <div class="hero_img">
+                <img src="assets/img/hero/hero2.png" alt="hero-img" />
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <div class="hero_text">
+                <h1>Compact</h1>
+                <h2>
+                  Sony - <br />
+                  RX100 III
+                </h2>
+                <p>Perfection in your pocket.</p>
+                <div class="fs-4">
+                  <small><del class="text-muted">$ 56,990</del></small>
+                  <b class="ms-4">$739</b>
+                </div>
+                <button type="button" class="hero_btn btn_arrow">
+                  Shop Now <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+              <div class="hero_img">
+                <img src="assets/img/hero/hero3.png" alt="hero-img" />
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+
+        <!-- social_links -->
+        <div class="hero_social_links social_links">
+          <a href="javascript:void(0);">
+            <svg
+              fill="#fff"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 50 50"
+            >
+              <path
+                d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"
+              />
+            </svg>
+          </a>
+          <br />
+          <a href="javascript:void(0);" class="my-sm-4 my-2">
+            <svg
+              fill="#fff"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 30 30"
+            >
+              <path
+                d="M15,12.124c-1.589,0-2.876,1.288-2.876,2.876s1.288,2.876,2.876,2.876s2.876-1.288,2.876-2.876S16.589,12.124,15,12.124z"
+              />
+              <circle cx="15" cy="15" r="3" />
+              <path
+                d="M15,2C7.832,2,2,7.832,2,15s5.832,13,13,13s13-5.832,13-13S22.168,2,15,2z M24,18.333C24,21.458,21.458,24,18.334,24h-6.667	C8.542,24,6,21.458,6,18.334v-6.667C6,8.542,8.542,6,11.666,6h6.667C21.458,6,24,8.542,24,11.666V18.333z"
+              />
+              <path
+                d="M18.333,8h-6.667C9.645,8,8,9.645,8,11.667v6.667C8,20.355,9.645,22,11.667,22h6.667C20.355,22,22,20.355,22,18.333v-6.667	C22,9.645,20.355,8,18.333,8z M15,20c-2.757,0-5-2.243-5-5s2.243-5,5-5s5,2.243,5,5S17.757,20,15,20z M19.667,11	C19.299,11,19,10.701,19,10.333s0.299-0.667,0.667-0.667c0.368,0,0.667,0.299,0.667,0.667S20.035,11,19.667,11z"
+              />
+            </svg>
+          </a>
+          <br />
+          <a href="javascript:void(0);">
+            <svg
+              fill="#fff"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 50 50"
+            >
+              <path
+                d="M25,2C12.317,2,2,12.317,2,25s10.317,23,23,23s23-10.317,23-23S37.683,2,25,2z M36.237,20.524c0.01,0.236,0.016,0.476,0.016,0.717C36.253,28.559,30.68,37,20.491,37c-3.128,0-6.041-0.917-8.491-2.489c0.433,0.052,0.872,0.077,1.321,0.077c2.596,0,4.985-0.884,6.879-2.37c-2.424-0.044-4.468-1.649-5.175-3.847c0.339,0.065,0.686,0.1,1.044,0.1c0.505,0,0.995-0.067,1.458-0.195c-2.532-0.511-4.441-2.747-4.441-5.432c0-0.024,0-0.047,0-0.07c0.747,0.415,1.6,0.665,2.509,0.694c-1.488-0.995-2.464-2.689-2.464-4.611c0-1.015,0.272-1.966,0.749-2.786c2.733,3.351,6.815,5.556,11.418,5.788c-0.095-0.406-0.145-0.828-0.145-1.262c0-3.059,2.48-5.539,5.54-5.539c1.593,0,3.032,0.672,4.042,1.749c1.261-0.248,2.448-0.709,3.518-1.343c-0.413,1.292-1.292,2.378-2.437,3.064c1.122-0.136,2.188-0.432,3.183-0.873C38.257,18.766,37.318,19.743,36.237,20.524z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <!-- scroll_down_btn -->
+        <div class="scroll_down_btn">
+          <i class="bi bi-chevron-down"></i>
+        </div>
+      </section>
+      <!-- /Hero Section -->
+
+      <!--============== Products Section ==============-->
+      <section id="products">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12 title">
+              <h3>All Products</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="products_wrapper">
+          <div class="products_card">
+            <figure class="products_img">
+              <b>Cameras</b>
+              <img src="assets/img/products/pro1.png" alt="" />
+            </figure>
+            <div class="products_info">
+              <h6>DSLR Cameras</h6>
+            </div>
+          </div>
+
+          <div class="products_card">
+            <figure class="products_img">
+              <b>Action</b>
+              <img src="assets/img/products/pro2.png" />
+            </figure>
+            <div class="products_info">
+              <h6>Action Cameras</h6>
+            </div>
+          </div>
+
+          <div class="products_card">
+            <figure class="products_img">
+              <b>Compact</b>
+              <img src="assets/img/products/pro3.png" alt="" />
+            </figure>
+            <div class="products_info">
+              <h6>Compact Cameras</h6>
+            </div>
+          </div>
+
+          <div class="products_card">
+            <figure class="products_img">
+              <b>Camcorders</b>
+              <img src="assets/img/products/pro4.png" alt="" />
+            </figure>
+            <div class="products_info">
+              <h6>Camcorders</h6>
+            </div>
+          </div>
+
+          <div class="products_card">
+            <figure class="products_img">
+              <b>Lenses</b>
+              <img src="assets/img/products/pro5.png" alt="" />
+            </figure>
+            <div class="products_info">
+              <h6>Lenses</h6>
+            </div>
+          </div>
+
+          <div class="products_card">
+            <figure class="products_img">
+              <b>Accessories</b>
+              <img src="assets/img/products/pro6.png" alt="" />
+            </figure>
+            <div class="products_info">
+              <h6>Accessories</h6>
+            </div>
+          </div>
+        </div>
+
+        <!-- </div> -->
+      </section>
+      <!-- /Products Section -->
+
+      <!--============== Popular Section ==============-->
+      <section id="popular">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12 title">
+              <h3>Popular Products</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="popular_wrapper">
+          <div class="popular_card">
+            <span class="badge badge1">New</span>
+            <i class="bi bi-heart"></i>
+            <figure class="popular_img">
+              <img src="assets/img/popular/1.png" alt="popular-img" />
+            </figure>
+            <div class="popular_info text-center">
+              <strong
+                >&#9733;&#9733;&#9733;&#9733;<b class="text-muted"
+                  >&#9733;</b
+                ></strong
+              >
+              <h4 class="my-2">Hero GoPro10</h4>
+              <div class="popular_price">
+                <b>$499</b>
+              </div>
+            </div>
+            <div class="popular_btns">
+              <button
+                type="button"
+                class="popular_quick_btn"
+                data-filter="product1"
+              >
+                <i class="bi bi-eye"></i> &#160; Quick Look
+              </button>
+              <button type="button" class="popular_cart_btn cart_btn">
+                <i class="bi bi-cart3"></i> &#160; Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="popular_card">
+            <span class="badge badge2">#1 Seller</span>
+            <i class="bi bi-heart"></i>
+            <figure class="popular_img">
+              <img src="assets/img/popular/2.png" alt="popular-img" />
+            </figure>
+            <div class="popular_info text-center">
+              <strong>&#9733;&#9733;&#9733;&#9733;&#9733;</strong>
+              <h4 class="my-2">Canon 1500D</h4>
+              <div class="popular_price">
+                <b>$479</b>
+                <small><del class="ms-2 text-muted">$ 34,995</del></small>
+              </div>
+            </div>
+            <div class="popular_btns">
+              <button
+                type="button"
+                class="popular_quick_btn"
+                data-filter="product2"
+              >
+                <i class="bi bi-eye"></i> &#160; Quick Look
+              </button>
+              <button type="button" class="popular_cart_btn cart_btn">
+                <i class="bi bi-cart3"></i> &#160; Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="popular_card">
+            <i class="bi bi-heart"></i>
+            <figure class="popular_img">
+              <img src="assets/img/popular/3.png" alt="popular-img" />
+            </figure>
+            <div class="popular_info text-center">
+              <strong
+                >&#9733;&#9733;&#9733;&#9733;<b class="text-muted"
+                  >&#9733;</b
+                ></strong
+              >
+              <h4 class="my-2">Nikon Z 50</h4>
+              <div class="popular_price">
+                <b>$579</b>
+                <small><del class="ms-2 text-muted">$830</del></small>
+              </div>
+            </div>
+            <div class="popular_btns">
+              <button
+                type="button"
+                class="popular_quick_btn"
+                data-filter="product3"
+              >
+                <i class="bi bi-eye"></i> &#160; Quick Look
+              </button>
+              <button type="button" class="popular_cart_btn cart_btn">
+                <i class="bi bi-cart3"></i> &#160; Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="popular_card">
+            <i class="bi bi-heart"></i>
+            <figure class="popular_img">
+              <img src="assets/img/popular/4.png" alt="popular-img" />
+            </figure>
+            <div class="popular_info text-center">
+              <strong>&#9733;&#9733;&#9733;&#9733;&#9733;</strong>
+              <h4 class="my-2">Sony RX100</h4>
+              <div class="popular_price">
+                <b>$538</b>
+                <small><del class="ms-2 text-muted">$ 53,890</del></small>
+              </div>
+            </div>
+            <div class="popular_btns">
+              <button
+                type="button"
+                class="popular_quick_btn"
+                data-filter="product4"
+              >
+                <i class="bi bi-eye"></i> &#160; Quick Look
+              </button>
+              <button type="button" class="popular_cart_btn cart_btn">
+                <i class="bi bi-cart3"></i> &#160; Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="popular_card">
+            <i class="bi bi-heart"></i>
+            <figure class="popular_img">
+              <img src="assets/img/popular/5.png" alt="popular-img" />
+            </figure>
+            <div class="popular_info text-center">
+              <strong
+                >&#9733;&#9733;&#9733;<b class="text-muted"
+                  >&#9733;&#9733;</b
+                ></strong
+              >
+              <h4 class="my-2">Sony 14mm f/1.8 Lens</h4>
+              <div class="popular_price">
+                <b>$582</b>
+                <small><del class="ms-2 text-muted">$830</del></small>
+              </div>
+            </div>
+            <div class="popular_btns">
+              <button
+                type="button"
+                class="popular_quick_btn"
+                data-filter="product5"
+              >
+                <i class="bi bi-eye"></i> &#160; Quick Look
+              </button>
+              <button type="button" class="popular_cart_btn cart_btn">
+                <i class="bi bi-cart3"></i> &#160; Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="popular_card">
+            <i class="bi bi-heart"></i>
+            <figure class="popular_img">
+              <img src="assets/img/popular/6.png" alt="popular-img" />
+            </figure>
+            <div class="popular_info text-center">
+              <strong
+                >&#9733;&#9733;&#9733;&#9733;<b class="text-muted"
+                  >&#9733;</b
+                ></strong
+              >
+              <h4 class="my-2">Sony PXW-Z280</h4>
+              <div class="popular_price">
+                <b>$289</b>
+                <small><del class="ms-2 text-muted">$399</del></small>
+              </div>
+            </div>
+            <div class="popular_btns">
+              <button
+                type="button"
+                class="popular_quick_btn"
+                data-filter="product6"
+              >
+                <i class="bi bi-eye"></i> &#160; Quick Look
+              </button>
+              <button type="button" class="popular_cart_btn cart_btn">
+                <i class="bi bi-cart3"></i> &#160; Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div class="popular_card d-md-none d-lg-block">
+            <i class="bi bi-heart"></i>
+            <figure class="popular_img">
+              <img src="assets/img/popular/7.png" alt="popular-img" />
+            </figure>
+            <div class="popular_info text-center">
+              <strong
+                >&#9733;&#9733;&#9733;<b class="text-muted"
+                  >&#9733;&#9733;</b
+                ></strong
+              >
+              <h4 class="my-2">Canon Speedlite 470EX</h4>
+              <div class="popular_price">
+                <b>$380</b>
+                <small><del class="ms-2 text-muted">$550</del></small>
+              </div>
+            </div>
+            <div class="popular_btns">
+              <button
+                type="button"
+                class="popular_quick_btn"
+                data-filter="product7"
+              >
+                <i class="bi bi-eye"></i> &#160; Quick Look
+              </button>
+              <button type="button" class="popular_cart_btn cart_btn">
+                <i class="bi bi-cart3"></i> &#160; Add to Cart
+              </button>
+            </div>
+          </div>
+
+          <div
+            class="d-flex justify-content-center align-items-center popular_card"
+          >
+            <a href="javascript:void(0);" class="browse_btn btn_arrow"
+              >Browse <br />
+              More
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- /Popular Section -->
+
+      <!--============== Feature Banner ==============-->
+      <section class="container-fluid feature_banner">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-5 ms-lg-4 feature_text">
+             <!--<h1>background heading</h1>--> 
+              <h1>Pixel Perfect. Splash-proof</h1>
+              <p>A new bench mark in optical performance -</p>
+              <span>From &#160; <b class="fs-4">$449</b></span> <br />
+              <a href="#popular" class="feature_btn btn_arrow"
+                >View Now
+                <i class="bi bi-arrow-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /Feature Banner -->
+
+      <!--============== Reviews Section ==============-->
+      <section id="reviews">
+        <div class="container">
+          <div class="row text-center">
+            <div class="col-12 title">
+              <h3>Product Reviews</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid container-lg">
+          <div class="swiper reviews_swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <figure class="reviews_img">
+                  <img src="assets/img/reviews/rev1.jpg" alt="reviews-img" />
+                </figure>
+                <div
+                  class="d-flex justify-content-between align-items-center px-3 px-md-4 py-3 reviews_text"
+                >
+                  <div class="reviews_title">
+                    <h5>Truly Mirrorless</h5>
+                    <h6 class="m-0 text-white-50">
+                      Sony Alpha Series &#160;&#160;&#160;
+                    </h6>
+                  </div>
+                  <div class="reviews_price">
+                    <b>$138</b> <br />
+                    <a href="#popular">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <figure class="reviews_img">
+                  <img src="assets/img/reviews/rev2.jpg" alt="reviews-img" />
+                </figure>
+                <div
+                  class="d-flex justify-content-between align-items-center px-3 px-md-4 py-3 reviews_text"
+                >
+                  <div class="reviews_title">
+                    <h5>High AF Performance</h5>
+                    <h6 class="m-0 text-white-50">
+                      Sony Alpha a7 &#160;&#160;&#160;
+                    </h6>
+                  </div>
+                  <div class="reviews_price">
+                    <b>$590</b> <br />
+                    <a href="#popular">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <figure class="reviews_img">
+                  <img src="assets/img/reviews/rev3.jpg" alt="reviews-img" />
+                </figure>
+                <div
+                  class="d-flex justify-content-between align-items-center px-3 px-md-4 py-3 reviews_text"
+                >
+                  <div class="reviews_title">
+                    <h5>Quick-response modes</h5>
+                    <h6 class="m-0 text-white-50">
+                      Nikon D3000 &#160;&#160;&#160;
+                    </h6>
+                  </div>
+                  <div class="reviews_price">
+                    <b>Out of stock</b> <br />
+                    <a href="#popular">Read More</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <figure class="reviews_img">
+                  <img src="assets/img/reviews/rev4.jpg" alt="reviews-img" />
+                </figure>
+                <div
+                  class="d-flex justify-content-between align-items-center px-3 px-md-4 py-3 reviews_text"
+                >
+                  <div class="reviews_title">
+                    <h5>High-resolution 4K HDR</h5>
+                    <h6 class="m-0 text-white-50">
+                      Sony Alpha7 III &#160;&#160;&#160;
+                    </h6>
+                  </div>
+                  <div class="reviews_price">
+                    <b>$679</b> <br />
+                    <a href="#popular">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <!-- /Reviews Section -->
+
+      <!--============== Brands Section ==============-->
+      <section id="brands" class="container">
+        <div class="row text-center">
+          <div class="col-12 title">
+            <h3>Top Brands</h3>
+          </div>
+        </div>
+        <div
+          class="row justify-content-center text-center mt-0 mt-md-4 gap-sm-0 gap-3 gy-sm-0 gy-4 brands_wrapper"
+        >
+          <div class="col-sm-3 col-4">
+            <img src="assets/img/brands/Sony.png" alt="brands-img" />
+          </div>
+
+          <div class="col-sm-3 col-4">
+            <img src="assets/img/brands/Nikon.png" alt="brands-img" />
+          </div>
+
+          <div class="col-sm-3 col-4">
+            <img src="assets/img/brands/Canon.png" alt="brands-img" />
+          </div>
+
+          <div class="col-sm-3 col-4">
+            <img src="assets/img/brands/Gopro.png" alt="brands-img" />
+          </div>
+        </div>
+      </section>
+      <!-- /Brands Section -->
+
+      <!--============== Services Section ==============-->
+      <section id="services" class="container-fluid container-lg">
+        <div
+          class="row justify-content-center align-items-center gap-4 gap-md-0 text-center services_wrapper"
+        >
+          <div class="col-md-3 col-sm-5">
+            <img src="assets/img/icons/free-shipping.png" alt="services-img" />
+            <h5>Fast Shipping</h5>
+            <p>Free and Fast Delivery</p>
+          </div>
+          <div class="col-md-3 col-sm-5">
+            <img src="assets/img/icons/medal.png" alt="services-img" />
+            <h5>Genuine Products</h5>
+            <p>Genuine & Original Products</p>
+          </div>
+          <div class="col-md-3 col-sm-5">
+            <img src="assets/img/icons/shield.png" alt="services-img" />
+            <h5>100% Secure Checkout</h5>
+            <p>UPI | Netbanking | EMI</p>
+          </div>
+          <div class="col-md-3 col-sm-5">
+            <img
+              src="assets/img/icons/customer-service.png"
+              alt="services-img"
+            />
+            <h5>Online Support</h5>
+            <p>Dedicated Online Support</p>
+          </div>
+        </div>
+      </section>
+      <!-- /Services Section -->
+    </main>
+
+    <!--============== Footer Section ==============-->
+    <footer id="footer">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 title">
+            <h3>Pro Lens</h3>
+          </div>
+        </div>
+
+        <div class="row justify-content-center text-center gap-5">
+          <div class="col-lg-3 foot_info_links">
+            <h5>Useful Links</h5>
+            <ul class="p-0 mt-4">
+              <li><a href="javascript:void(0);">FAQs</a></li>
+              <li><a href="javascript:void(0);">Help & Support</a></li>
+              <li><a href="javascript:void(0);">Terms of Service</a></li>
+              <li><a href="javascript:void(0);">Cancellation & Refunds</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="foot_social_links social_links">
+              <a href="javascript:void(0);">
+                <svg
+                  fill="#fff"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                >
+                  <path
+                    d="M25,3C12.85,3,3,12.85,3,25c0,11.03,8.125,20.137,18.712,21.728V30.831h-5.443v-5.783h5.443v-3.848c0-6.371,3.104-9.168,8.399-9.168c2.536,0,3.877,0.188,4.512,0.274v5.048h-3.612c-2.248,0-3.033,2.131-3.033,4.533v3.161h6.588l-0.894,5.783h-5.694v15.944C38.716,45.318,47,36.137,47,25C47,12.85,37.15,3,25,3z"
+                  />
+                </svg>
+              </a>
+              <a href="javascript:void(0);" class="mx-5">
+                <svg
+                  fill="#fff"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 30 30"
+                >
+                  <path
+                    d="M15,12.124c-1.589,0-2.876,1.288-2.876,2.876s1.288,2.876,2.876,2.876s2.876-1.288,2.876-2.876S16.589,12.124,15,12.124z"
+                  />
+                  <circle cx="15" cy="15" r="3" />
+                  <path
+                    d="M15,2C7.832,2,2,7.832,2,15s5.832,13,13,13s13-5.832,13-13S22.168,2,15,2z M24,18.333C24,21.458,21.458,24,18.334,24h-6.667	C8.542,24,6,21.458,6,18.334v-6.667C6,8.542,8.542,6,11.666,6h6.667C21.458,6,24,8.542,24,11.666V18.333z"
+                  />
+                  <path
+                    d="M18.333,8h-6.667C9.645,8,8,9.645,8,11.667v6.667C8,20.355,9.645,22,11.667,22h6.667C20.355,22,22,20.355,22,18.333v-6.667	C22,9.645,20.355,8,18.333,8z M15,20c-2.757,0-5-2.243-5-5s2.243-5,5-5s5,2.243,5,5S17.757,20,15,20z M19.667,11	C19.299,11,19,10.701,19,10.333s0.299-0.667,0.667-0.667c0.368,0,0.667,0.299,0.667,0.667S20.035,11,19.667,11z"
+                  />
+                </svg>
+              </a>
+              <a href="javascript:void(0);">
+                <svg
+                  fill="#fff"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 50 50"
+                >
+                  <path
+                    d="M25,2C12.317,2,2,12.317,2,25s10.317,23,23,23s23-10.317,23-23S37.683,2,25,2z M36.237,20.524c0.01,0.236,0.016,0.476,0.016,0.717C36.253,28.559,30.68,37,20.491,37c-3.128,0-6.041-0.917-8.491-2.489c0.433,0.052,0.872,0.077,1.321,0.077c2.596,0,4.985-0.884,6.879-2.37c-2.424-0.044-4.468-1.649-5.175-3.847c0.339,0.065,0.686,0.1,1.044,0.1c0.505,0,0.995-0.067,1.458-0.195c-2.532-0.511-4.441-2.747-4.441-5.432c0-0.024,0-0.047,0-0.07c0.747,0.415,1.6,0.665,2.509,0.694c-1.488-0.995-2.464-2.689-2.464-4.611c0-1.015,0.272-1.966,0.749-2.786c2.733,3.351,6.815,5.556,11.418,5.788c-0.095-0.406-0.145-0.828-0.145-1.262c0-3.059,2.48-5.539,5.54-5.539c1.593,0,3.032,0.672,4.042,1.749c1.261-0.248,2.448-0.709,3.518-1.343c-0.413,1.292-1.292,2.378-2.437,3.064c1.122-0.136,2.188-0.432,3.183-0.873C38.257,18.766,37.318,19.743,36.237,20.524z"
+                  />
+                </svg>
+              </a>
+            </div>
+            <div class="foot_subscribe">
+              <h6>Connect with us</h6>
+              <form>
+                <input
+                  type="email"
+                  class="subs_field"
+                  placeholder="Your Email*"
+                  required
+                />
+                <br />
+                <button type="submit" class="subs_btn">Subscribe</button>
+              </form>
+            </div>
+          </div>
+
+          <div class="col-lg-3 foot_info_links">
+            <h5>Quick Links</h5>
+            <ul class="p-0 mt-4">
+              <li><a href="javascript:void(0);">Track Order</a></li>
+              <li><a href="javascript:void(0);">Privacy Policy</a></li>
+              <li><a href="javascript:void(0);">Shipping Rates</a></li>
+              <li><a href="javascript:void(0);">Locate Service Centres</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="foot_credit">
+          <p>
+            &#169;
+            <script>
+              document.write(new Date().getFullYear() + " ");
+            </script>
+            Pro Lens. All Rights Reserved.
+            <span
+              >Designed & Built by |
+              <a href="https://github.com/Uncodedwolf" target="_blank"
+                >William Cromwell</a
+              >
+            </span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- /Footer Section -->
+
+    <!--========= Go-to-top btn =========-->
+    <div class="goTop" title="Go to Top">
+      <i class="bi bi-chevron-up"></i>
+    </div>
+    <!-- /Go-to-top btn -->
+
+    <!--========= Toast-msg =========-->
+    <div class="toast_msg">
+      <span></span>
+    </div>
+    <!-- /Toast-msg -->
+
+    <!--========= Account-Modal =========-->
+    <section id="account_modal">
+      <div class="modal_centered">
+        <div class="swiper account_swiper">
+          <div class="swiper-wrapper">
+            <!-- Login-swiper -->
+            <div class="swiper-slide">
+              <div class="modal_head">
+                <h3 class="mb-0">Log in</h3>
+                <div class="close_btn account_close" title="Close">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="modal_body">
+                <form action="#">
+                  <div class="input_box">
+                    <input type="email" required />
+                    <label>Your Email*</label>
+                  </div>
+                  <div class="input_box">
+                    <input type="password" required />
+                    <label>Your Password*</label>
+                    <span class="forgot_pass"
+                      ><i class="bi bi-info"></i>Forgot Password?</span
+                    >
+                  </div>
+                  <button type="submit" class="modal_btn">Log in</button>
+                </form>
+              </div>
+
+              <div class="modal_foot text-center">
+                <p class="mb-0">
+                  New to Pro Lens?
+                  <span class="swiper-button-next">
+                    &#160; Create an Account</span
+                  >
+                </p>
+              </div>
+            </div>
+
+            <!-- Signup-swiper -->
+            <div class="swiper-slide">
+              <div class="modal_head">
+                <h3 class="mb-0">Sign up</h3>
+                <div class="close_btn account_close" title="Close">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+
+              <div class="modal_body">
+                <form action="#">
+                  <div class="input_box">
+                    <input type="text" required />
+                    <label>Your Name*</label>
+                  </div>
+                  <div class="input_box">
+                    <input type="email" required />
+                    <label>Your Email*</label>
+                  </div>
+                  <div class="input_box">
+                    <input type="password" required class="pass" />
+                    <label>Enter Password*</label>
+                    <span class="warn_msg"
+                      ><i class="bi bi-info"></i>Password must be at least 6
+                      characters.</span
+                    >
+                  </div>
+                  <button type="submit" class="modal_btn">Sign up</button>
+                </form>
+              </div>
+
+              <div class="modal_foot text-center">
+                <p class="mb-0">
+                  Existing User?
+                  <span class="swiper-button-prev"> &#160; Log in</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /Account Modal -->
+
+    <!--============== Product-Modal-01 ==============-->
+    <section class="product_modal product1">
+      <div class="modal_centered">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10 col-xl-11 col-12">
+              <div class="row product_modal_wrapper">
+                <div class="col-lg-7 product_lightbox">
+                  <div class="swiper product_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="assets/img/modal/go1.png" alt="product-img" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/modal/go2.png" alt="product-img" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/modal/go3.png" alt="product-img" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/modal/go4.png" alt="product-img" />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div thumbsSlider="" class="swiper thumb_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img src="assets/img/modal/go1.png" alt="product-img" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/modal/go2.png" alt="product-img" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/modal/go3.png" alt="product-img" />
+                      </div>
+                      <div class="swiper-slide">
+                        <img src="assets/img/modal/go4.png" alt="product-img" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-5 product_details">
+                  <div class="product_title">
+                    <h4>GoPro Hero10</h4>
+                    <h6>23 MP Action Camera</h6>
+                  </div>
+
+                  <div class="product_ratings">
+                    <strong
+                      >&#9733;&#9733;&#9733;&#9733;<b class="text-muted"
+                        >&#9733;</b
+                      ></strong
+                    >
+                    <a href="javascript:void(0);" class="ms-2"
+                      >400 Ratings & Reviews</a
+                    >
+                  </div>
+
+                  <div class="product_wishlist">
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-share ms-4"></i>
+                  </div>
+
+                  <div class="badge product_badge">
+                    <span
+                      ><i class="bi bi-check-circle"></i> Product
+                      Available</span
+                    >
+                  </div>
+
+                  <div class="product_price">
+                    <b>$500<small>.00</small></b>
+                  </div>
+
+                  <div class="product_btns">
+                    <button type="button" class="buy_btn">
+                      <i class="bi bi-bag"></i> &#160; Buy Now
+                    </button>
+                    <button type="button" class="me-2 cart_btn">
+                      <i class="bi bi-cart3"></i> &#160; Add to Cart
+                    </button>
+                    <button type="button" class="compare_btn">
+                      <i class="bi bi-arrow-repeat"></i> &#160; Compare
+                    </button>
+                  </div>
+
+                  <div class="product_features">
+                    <h5>Product Highlights -</h5>
+                    <ul class="mt-3">
+                      <li>IMX677 1/2.3 sensor</li>
+                      <li>5.3K60 + 4K120 UHD - Video resolution</li>
+                      <li>Webcam - 1080p Live Streaming</li>
+                      <li>Front LCD and Touch Rear Screens</li>
+                      <li>Waterproof to 33ft</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="close_btn product_close" title="Close">
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+    <!-- /Product-01 -->
+
+    <!--============== Product-Modal-02 ==============-->
+    <section class="product_modal product2">
+      <div class="modal_centered">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10 col-xl-11 col-12">
+              <div class="row product_modal_wrapper">
+                <div class="col-lg-7 product_lightbox">
+                  <div class="swiper product_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/canon1.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/canon2.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/canon3.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/canon4.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/canon5.png"
+                          alt="product-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div thumbsSlider="" class="swiper thumb_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/canon1.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/canon2.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/canon3.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/canon4.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/canon5.png"
+                          alt="product-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-5 product_details">
+                  <div class="product_title">
+                    <h4>Canon EOS 1500D</h4>
+                    <h6>24.1 MP DSLR Camera</h6>
+                  </div>
+
+                  <div class="product_ratings">
+                    <strong>&#9733;&#9733;&#9733;&#9733;&#9733;</strong>
+                    <a href="javascript:void(0);" class="ms-2"
+                      >3455 Ratings & Reviews</a
+                    >
+                  </div>
+
+                  <div class="product_wishlist">
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-share ms-4"></i>
+                  </div>
+
+                  <div class="badge product_badge">
+                    <span
+                      ><i class="bi bi-check-circle"></i> Product
+                      Available</span
+                    >
+                  </div>
+
+                  <div class="product_price">
+                    <b>$310<small>.00</small></b>
+                    <del class="ms-2 text-muted"
+                      >MRP: 34,995<small></small></del
+                    >
+                  </div>
+
+                  <div class="product_btns">
+                    <button type="button" class="buy_btn">
+                      <i class="bi bi-bag"></i> &#160; Buy Now
+                    </button>
+                    <button type="button" class="me-2 cart_btn">
+                      <i class="bi bi-cart3"></i> &#160; Add to Cart
+                    </button>
+                    <button type="button" class="compare_btn">
+                      <i class="bi bi-arrow-repeat"></i> &#160; Compare
+                    </button>
+                  </div>
+
+                  <div class="product_features">
+                    <h5>Product Highlights -</h5>
+                    <ul class="mt-3">
+                      <li>24.1 megapixel APS-C CMOS sensor</li>
+                      <li>9 point AF with 1 centre cross-type AF point</li>
+                      <li>Standard ISO 100 - 6400 (expandable to 12 800)</li>
+                      <li>Wi-Fi / NFC supported</li>
+                      <li>12 Months Warranty</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="close_btn product_close" title="Close">
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+    <!-- /Product-02 -->
+
+    <!--============== Product-Modal-03 ==============-->
+    <section class="product_modal product3">
+      <div class="modal_centered">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10 col-xl-11 col-12">
+              <div class="row product_modal_wrapper">
+                <div class="col-lg-7 product_lightbox">
+                  <div class="swiper product_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/nikon1.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/nikon2.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/nikon3.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/nikon4.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/nikon5.png"
+                          alt="product-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div thumbsSlider="" class="swiper thumb_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/nikon1.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/nikon2.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/nikon3.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/nikon4.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/nikon5.png"
+                          alt="product-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-5 product_details">
+                  <div class="product_title">
+                    <h4>NIKON Z 50</h4>
+                    <h6>20.9 MP Mirrorless Camera</h6>
+                  </div>
+
+                  <div class="product_ratings">
+                    <strong
+                      >&#9733;&#9733;&#9733;&#9733;<b class="text-muted"
+                        >&#9733;</b
+                      ></strong
+                    >
+                    <a href="javascript:void(0);" class="ms-2"
+                      >1423 Ratings & Reviews</a
+                    >
+                  </div>
+
+                  <div class="product_wishlist">
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-share ms-4"></i>
+                  </div>
+
+                  <div class="badge product_badge">
+                    <span
+                      ><i class="bi bi-check-circle"></i> Product
+                      Available</span
+                    >
+                  </div>
+
+                  <div class="product_price">
+                    <b>$84,007<small>.00</small></b>
+                    <del class="ms-2 text-muted"
+                      >M.R.P.: 85,995<small>.00</small></del
+                    >
+                  </div>
+
+                  <div class="product_btns">
+                    <button type="button" class="buy_btn">
+                      <i class="bi bi-bag"></i> &#160; Buy Now
+                    </button>
+                    <button type="button" class="me-2 cart_btn">
+                      <i class="bi bi-cart3"></i> &#160; Add to Cart
+                    </button>
+                    <button type="button" class="compare_btn">
+                      <i class="bi bi-arrow-repeat"></i> &#160; Compare
+                    </button>
+                  </div>
+
+                  <div class="product_features">
+                    <h5>Product Highlights -</h5>
+                    <ul class="mt-3">
+                      <li>20.9megapixel DX-CMOS sensor</li>
+                      <li>UHD 4K</li>
+                      <li>Image Dust Off reference data</li>
+                      <li>Auto-Switch - monitor & viewfinder displays</li>
+                      <li>Wi-Fi connectivity</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="close_btn product_close" title="Close">
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+    <!-- /Product-03 -->
+
+    <!--============== Product-Modal-04 ==============-->
+    <section class="product_modal product4">
+      <div class="modal_centered">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10 col-xl-11 col-12">
+              <div class="row product_modal_wrapper">
+                <div class="col-lg-7 product_lightbox">
+                  <div class="swiper product_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/sony1.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/sony2.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/sony3.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/sony4.png"
+                          alt="product-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div thumbsSlider="" class="swiper thumb_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/sony1.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/sony2.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/sony3.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/sony4.png"
+                          alt="product-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-5 product_details">
+                  <div class="product_title">
+                    <h4>Sony RX100 III</h4>
+                    <h6>20.1 MP Compact Camera</h6>
+                  </div>
+
+                  <div class="product_ratings">
+                    <strong>&#9733;&#9733;&#9733;&#9733;&#9733;</strong>
+                    <a href="javascript:void(0);" class="ms-2"
+                      >1655 Ratings & Reviews</a
+                    >
+                  </div>
+
+                  <div class="product_wishlist">
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-share ms-4"></i>
+                  </div>
+
+                  <div class="badge product_badge">
+                    <span
+                      ><i class="bi bi-check-circle"></i> Product
+                      Available</span
+                    >
+                  </div>
+
+                  <div class="product_price">
+                    <b>$ 53,570<small>.00</small></b>
+                    <del class="ms-2 text-muted"
+                      >MRP: 53,890<small>.00</small></del
+                    >
+                  </div>
+
+                  <div class="product_btns">
+                    <button type="button" class="buy_btn">
+                      <i class="bi bi-bag"></i> &#160; Buy Now
+                    </button>
+                    <button type="button" class="me-2 cart_btn">
+                      <i class="bi bi-cart3"></i> &#160; Add to Cart
+                    </button>
+                    <button type="button" class="compare_btn">
+                      <i class="bi bi-arrow-repeat"></i> &#160; Compare
+                    </button>
+                  </div>
+
+                  <div class="product_features">
+                    <h5>Product Highlights -</h5>
+                    <ul class="mt-3">
+                      <li>1.0-type Exmor® R CMOS sensor</li>
+                      <li>ZEISS® Vario-Sonnar® T* 24-70mm lens</li>
+                      <li>
+                        BIONZ X™ engine for superb detail & noise reduction
+                      </li>
+                      <li>180º - tiltable LCD for selfies</li>
+                      <li>Built-in OLED Tru-Finder™ - EVF</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="close_btn product_close" title="Close">
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+    <!-- /Product-04 -->
+
+    <!--============== Product-Modal-05 ==============-->
+    <section class="product_modal product5">
+      <div class="modal_centered">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10 col-xl-11 col-12">
+              <div class="row product_modal_wrapper">
+                <div class="col-lg-7 product_lightbox">
+                  <div class="no_slide">
+                    <img
+                      src="assets/img/modal/sonylens.png"
+                      alt="product-img"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-5 product_details">
+                  <div class="product_title">
+                    <h4>Sony FE 14mm f/1.8 GM</h4>
+                    <h6>Full-Frame Prime Lens</h6>
+                  </div>
+
+                  <div class="product_ratings">
+                    <strong
+                      >&#9733;&#9733;&#9733;<b class="text-muted"
+                        >&#9733;&#9733;</b
+                      ></strong
+                    >
+                    <a href="javascript:void(0);" class="ms-2"
+                      >41 Ratings & Reviews</a
+                    >
+                  </div>
+
+                  <div class="product_wishlist">
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-share ms-4"></i>
+                  </div>
+
+                  <div class="badge product_badge">
+                    <span
+                      ><i class="bi bi-check-circle"></i> Product
+                      Available</span
+                    >
+                  </div>
+
+                  <div class="product_price">
+                    <b>$ 1,47,990<small>.00</small></b>
+                    <del class="ms-2 text-muted"
+                      >MRP: 1,62,990<small>.00</small></del
+                    >
+                  </div>
+
+                  <div class="product_btns">
+                    <button type="button" class="buy_btn">
+                      <i class="bi bi-bag"></i> &#160; Buy Now
+                    </button>
+                    <button type="button" class="me-2 cart_btn">
+                      <i class="bi bi-cart3"></i> &#160; Add to Cart
+                    </button>
+                    <button type="button" class="compare_btn">
+                      <i class="bi bi-arrow-repeat"></i> &#160; Compare
+                    </button>
+                  </div>
+
+                  <div class="product_features">
+                    <h5>Product Highlights -</h5>
+                    <ul class="mt-3">
+                      <li>Aperture Range: f/1.8 to f/16</li>
+                      <li>E-Mount Lens/Full-Frame Format</li>
+                      <li>Rounded 9-Blade Diaphragm</li>
+                      <li>XD Linear Motor AF, Internal Focus</li>
+                      <li>Dust & Moisture-Resistant Construction</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="close_btn product_close" title="Close">
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+    <!-- /Product-05 -->
+
+    <!--============== Product-Modal-06 ==============-->
+    <section class="product_modal product6">
+      <div class="modal_centered">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10 col-xl-11 col-12">
+              <div class="row product_modal_wrapper">
+                <div class="col-lg-7 product_lightbox">
+                  <div class="swiper product_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/camcorder1.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/camcorder2.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/camcorder3.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/camcorder4.png"
+                          alt="product-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+
+                  <div thumbsSlider="" class="swiper thumb_swiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/camcorder1.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/camcorder2.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/camcorder3.png"
+                          alt="product-img"
+                        />
+                      </div>
+                      <div class="swiper-slide">
+                        <img
+                          src="assets/img/modal/camcorder4.png"
+                          alt="product-img"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-5 product_details">
+                  <div class="product_title">
+                    <h4>Sony PXW-Z280</h4>
+                    <h6>4K XDCAM Camcorder</h6>
+                  </div>
+
+                  <div class="product_ratings">
+                    <strong
+                      >&#9733;&#9733;&#9733;<b class="text-muted"
+                        >&#9733;&#9733;</b
+                      ></strong
+                    >
+                    <a href="javascript:void(0);" class="ms-2"
+                      >700 Ratings & Reviews</a
+                    >
+                  </div>
+
+                  <div class="product_wishlist">
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-share ms-4"></i>
+                  </div>
+
+                  <div class="badge product_badge">
+                    <span
+                      ><i class="bi bi-check-circle"></i> Product
+                      Available</span
+                    >
+                  </div>
+
+                  <div class="product_price">
+                    <b>$ 409,990<small>.00</small></b>
+                    <del class="ms-2 text-muted"
+                      >MRP: 516,000<small>.00</small></del
+                    >
+                  </div>
+
+                  <div class="product_btns">
+                    <button type="button" class="buy_btn">
+                      <i class="bi bi-bag"></i> &#160; Buy Now
+                    </button>
+                    <button type="button" class="me-2 cart_btn">
+                      <i class="bi bi-cart3"></i> &#160; Add to Cart
+                    </button>
+                    <button type="button" class="compare_btn">
+                      <i class="bi bi-arrow-repeat"></i> &#160; Compare
+                    </button>
+                  </div>
+
+                  <div class="product_features">
+                    <h5>Product Highlights -</h5>
+                    <ul class="mt-3">
+                      <li>Three 1/2″ Exmor R CMOS Sensors</li>
+                      <li>4K 60p Recording</li>
+                      <li>Integrated 17x Optical Zoom Lens</li>
+                      <li>Supports XAVC Intra/Long, MPEG HD, DVCAM</li>
+                      <li>Built-In 2.4/5 GHz Wi-Fi</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="close_btn product_close" title="Close">
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+    <!-- /Product-06 -->
+
+    <!--============== Product-Modal-07 ==============-->
+    <section class="product_modal product7">
+      <div class="modal_centered">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10 col-xl-11 col-12">
+              <div class="row product_modal_wrapper">
+                <div class="col-lg-7 product_lightbox">
+                  <div class="no_slide">
+                    <img
+                      src="assets/img/modal/canonflash.png"
+                      alt="product-img"
+                    />
+                  </div>
+                </div>
+
+                <div class="col-lg-5 product_details">
+                  <div class="product_title">
+                    <h4>Canon Speedlite 470EX</h4>
+                    <h6>AI Bounce Flash</h6>
+                  </div>
+
+                  <div class="product_ratings">
+                    <strong
+                      >&#9733;&#9733;&#9733;<b class="text-muted"
+                        >&#9733;&#9733;</b
+                      ></strong
+                    >
+                    <a href="javascript:void(0);" class="ms-2"
+                      >383 Ratings & Reviews</a
+                    >
+                  </div>
+
+                  <div class="product_wishlist">
+                    <i class="bi bi-heart"></i>
+                    <i class="bi bi-share ms-4"></i>
+                  </div>
+
+                  <div class="badge product_badge">
+                    <span
+                      ><i class="bi bi-check-circle"></i> Product
+                      Available</span
+                    >
+                  </div>
+
+                  <div class="product_price">
+                    <b>$ 24,990<small>.00</small></b>
+                    <del class="ms-2 text-muted"
+                      >MRP: 28,995<small>.00</small></del
+                    >
+                  </div>
+
+                  <div class="product_btns">
+                    <button type="button" class="buy_btn">
+                      <i class="bi bi-bag"></i> &#160; Buy Now
+                    </button>
+                    <button type="button" class="me-2 cart_btn">
+                      <i class="bi bi-cart3"></i> &#160; Add to Cart
+                    </button>
+                    <button type="button" class="compare_btn">
+                      <i class="bi bi-arrow-repeat"></i> &#160; Compare
+                    </button>
+                  </div>
+
+                  <div class="product_features">
+                    <h5>Product Highlights -</h5>
+                    <ul class="mt-3">
+                      <li>World's first AI Bounce Flash</li>
+                      <li>Zoom Flash Head Range of 24–105mm**</li>
+                      <li>AI.B Full-auto & Semi-auto Mode Settings</li>
+                      <li>AF Assist Beam Emission in Low-light Scenes</li>
+                      <li>Runs on 4x AA Batteries</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="close_btn product_close" title="Close">
+        <span></span>
+        <span></span>
+      </div>
+    </section>
+    <!-- /Product-07 -->
+
+    <!--============== Javascript Files ==============-->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
