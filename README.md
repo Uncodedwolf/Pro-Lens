@@ -3,13 +3,7 @@
 Welcome to the official GitHub repository for Pro Lens, a professional reactive portfolio website for selling high-quality cameras and equipment. 
 This repository contains the source code and all the necessary files for deploying the website. 
 
-<p align="center">
-  <video src="https://user-images.githubusercontent.com/94199297/226206356-020d1b7f-0b39-45b6-bc0e-b88d83df5242.mp4" width=400/>
-<p/>
-
-
-
-
+https://user-images.githubusercontent.com/94199297/226206892-4afdc10b-d905-4b83-bf70-48704a8e7a07.mp4 
 
 You can preview the website at: ➡️   [Pro Lens.com](https://prolensdemo.netlify.app/)
 
