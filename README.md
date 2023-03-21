@@ -1,5 +1,7 @@
 
 # 📷 Pro Lens Portfolio Website
+![Netlify](https://img.shields.io/netlify/7c4520d3-79ae-4500-8fe7-ef50564f00b6)   ![GitHub Repo stars](https://img.shields.io/github/stars/uncodedwolf/pro-lens) ![GitHub watchers](https://img.shields.io/github/watchers/uncodedwolf/pro-lens?style=social)
+
 Welcome to the official GitHub repository for Pro Lens, a professional reactive portfolio website for selling high-quality cameras and equipment. 
 This repository contains the source code and all the necessary files for deploying the website. 
 
